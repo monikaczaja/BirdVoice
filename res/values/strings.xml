@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="welcome_instructions">Hello Bird Lovers! Press button above once to capture bird calls, and wait a moment for results.</string>
+    <string name="clear_instructions">Clear Results</string>
+    <string name="results_display"> </string>
+    <string name="button_capture">Start Capture</string>
+    <string name="button_file">Start from File</string>
+    <string name="app_name">Bird Voice</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Bird Voice</string>
+</resources>

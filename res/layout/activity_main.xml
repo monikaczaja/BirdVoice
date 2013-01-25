@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android1:background="@drawable/background3" >
+
+    <Button
+        android1:id="@+id/capture_button"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:onClick="start_recording"
+        android1:text="@string/button_capture" />
+
+    <TextView
+        android1:id="@+id/file_processing_output"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/capture_button"
+        android1:layout_marginTop="18dp"
+        android1:textSize="14sp"
+        android1:text="@string/welcome_instructions" />
+
+    <TextView
+        android1:id="@+id/results_output"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/file_processing_output"
+        android1:layout_marginTop="20dp"
+        android1:textSize="15sp"
+        android1:text="@string/results_display" />
+
+    <Button
+        android1:id="@+id/clear_button"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true"
+        android1:onClick="clear_output"
+        android1:text="@string/clear_instructions" />
+
+</RelativeLayout>
